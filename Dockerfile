@@ -16,5 +16,5 @@ RUN apt update \
 
 RUN apt-get update && apt-get install -y make
 
-ENTRYPOINT [ "/bin/bash" ]
+ENTRYPOINT [ "pdflatex" ]
 
